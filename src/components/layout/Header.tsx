@@ -4,6 +4,7 @@ import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/Vridhhi.jpg";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -61,13 +62,23 @@ export function Header() {
       >
         <div className="container flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
+           <Link to="/" className="flex items-center gap-3">
+            <div className="relative w-12 h-12">
+              <img
+                src={logo}
+                alt="Vridhhi Associates"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          /*
+             <Link to="/" className="flex items-center gap-3">
             <div className="relative">
               <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-heading font-extrabold text-xl">V</span>
               </div>
               <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-sand-dark rounded-sm" />
             </div>
+            */
             <div>
               <h1 className="font-heading font-bold text-xl text-foreground leading-tight">
                 Vriddhi Associates
