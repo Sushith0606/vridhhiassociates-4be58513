@@ -62,22 +62,21 @@ export function Header() {
       >
         <div className="container flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="relative">
-              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-extrabold text-xl">V</span>
-              </div>
-              <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-sand-dark rounded-sm" />
-            </div>
-            <div>
-              <h1 className="font-heading font-bold text-xl text-foreground leading-tight">
-                Vriddhi Associates
-              </h1>
-              <p className="text-xs text-muted-foreground hidden sm:block">
-                Strong Foundations. Lasting Relationships.
-              </p>
-            </div>
-          </Link>
+          <Link to="/" className="flex items-center">
+          <img
+            src={logo}                     // your current logo file (the simple blue "V" or replace with better one)
+            alt="Vridhhi Associates"
+            className="
+              h-24 w-auto               // base: bigger than original h-20
+              sm:h-28                   // small screens
+              md:h-32                   // medium → more presence
+              lg:h-36                   // large → fills header nicely like a detailed logo would
+              p-1                       // tiny padding so it doesn't touch edges
+              object-contain            // preserves aspect ratio, no distortion
+              transition-transform duration-300 hover:scale-105   // subtle hover effect (optional but nice UX)
+            "
+          />
+        </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">
