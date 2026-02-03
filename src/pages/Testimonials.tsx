@@ -8,7 +8,7 @@ import heroImage from "@/assets/hero-construction.jpg";
 const testimonials = [
   {
     id: 1,
-    name: "Rajesh Kumar",
+    name: "Rajesh Swain",
     location: "Hubli",
     rating: 5,
     projectType: "Residential",
