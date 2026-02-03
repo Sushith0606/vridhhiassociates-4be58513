@@ -23,7 +23,7 @@ const contactInfo = [
     icon: Phone,
     title: "Phone",
     content: "+91 8792076681",
-    subtext: "Contact Person: Paddu",
+    subtext: "Contact Person: Paddu Paddu",
     href: "tel:8792076681",
   },
   {
