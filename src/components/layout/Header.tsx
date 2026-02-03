@@ -62,23 +62,22 @@ export function Header() {
       >
         <div className="container flex items-center justify-between">
           {/* Logo */}
-           <Link to="/" className="flex items-center gap-3">
-            <div className="relative w-12 h-12">
-              <img
-                src={logo}
-                alt="Vridhhi Associates"
-                className="w-full h-full object-contain"
-              />
-            </div>         
-            <div>
-              <h1 className="font-heading font-bold text-xl text-foreground leading-tight">
-                Vriddhi Associates
-              </h1>
-              <p className="text-xs text-muted-foreground hidden sm:block">
-                Strong Foundations. Lasting Relationships.
-              </p>
-            </div>
-          </Link>
+          <Link to="/" className="flex items-center gap-3">
+          <img
+            src={logo}
+            alt="Vridhhi Associates"
+            className="h-14 w-auto sm:h-16 md:h-18"
+          />
+        
+          <div>
+            <h1 className="font-heading font-bold text-xl text-foreground leading-tight">
+              Vridhhi Associates
+            </h1>
+            <p className="text-xs text-muted-foreground hidden sm:block">
+              Strong Foundations. Lasting Relationships.
+            </p>
+          </div>
+        </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">
