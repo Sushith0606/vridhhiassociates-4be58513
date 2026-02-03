@@ -61,7 +61,7 @@ export function Header() {
         )}
       >
         <div className="container flex items-center justify-between">
-          {/* Logo */}
+          {/* Logos */}
           <Link to="/" className="flex items-center gap-3">
             <div className="relative">
               <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
