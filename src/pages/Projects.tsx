@@ -12,7 +12,7 @@ type ProjectCategory = "all" | "completed" | "ongoing";
 const projects = [
   {
     id: 1,
-    title: "Sunrise Apartments",
+    title: "Sunset Apartments",
     location: "Vidya Nagar, Hubli",
     category: "Residential",
     status: "completed" as const,
