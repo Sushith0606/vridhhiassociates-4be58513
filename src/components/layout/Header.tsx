@@ -47,7 +47,7 @@ export function Header() {
               <span>Vridhhiassociates@gmail.com</span>
             </a>
           </div>
-          <p className="font-medium">Building Trust. Creating Value. Shaping the Future.</p>
+          <p className="font-medium"> Creating Value. Shaping the Future.</p>
         </div>
       </div>
 
