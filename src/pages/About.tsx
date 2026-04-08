@@ -101,7 +101,7 @@ const About = () => {
                 Your Trusted Construction Partner in Hubli
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                Vriddhi Associates was founded with a simple yet powerful vision: to deliver
+                Vriddhi project was founded with a simple yet powerful vision: to deliver
                 construction excellence while building lasting relationships with our clients.
                 Based in Hubli, we have grown to become one of the most trusted names in
                 residential and commercial construction.
